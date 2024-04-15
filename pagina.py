@@ -14,7 +14,7 @@ def extraer_texto(url):
         return None
 
 # URL de la página web que deseas analizar
-url_pagina = 'https://listado.mercadolibre.com.mx/fuente-12v-10a#D[A:fuente%2012v%2010a]'
+url_pagina = str(input("Ingresa la url a analizar: \n"))
 texto_pagina = extraer_texto(url_pagina)
 
 # Guardar el texto extraído en un archivo de texto
